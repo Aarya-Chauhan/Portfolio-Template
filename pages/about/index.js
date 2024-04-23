@@ -88,8 +88,16 @@ export const aboutData = [
   },
 ];
 
+import Avatar from  '../../components/Avatar';
+import Circles from '../../components/Circles';
+import { useState } from "react";
+
 const About = () => {
-  return <div>About</div>;
+  const [index] = useState(0)
+  return <div>
+    <Circles/>
+    
+  </div>;
 };
 
 export default About;
