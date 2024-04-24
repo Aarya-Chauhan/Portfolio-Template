@@ -95,7 +95,7 @@ import { useState } from "react";
 const About = () => {
   const [index] = useState(0)
   return <div>
-    <Circles/>
+    <Circles className=''/>
     
   </div>;
 };
