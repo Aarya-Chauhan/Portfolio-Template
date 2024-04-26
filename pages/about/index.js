@@ -90,14 +90,21 @@ export const aboutData = [
 
 import Avatar from  '../../components/Avatar';
 import Circles from '../../components/Circles';
+import {motion} from 'framer-motion';
+import {fadeIn} from '../../variants';
+
+
 import { useState } from "react";
 
 const About = () => {
   const [index] = useState(0)
   return <div className="">
     <Circles className=''/>
+    <motion.div className="hidden xl:flex  absolute bottom-0 -left-[370px]">
+      <Avatar/>
+    </motion.div>
     
-  </div>;
+  </div>
 };
 
 export default About;
