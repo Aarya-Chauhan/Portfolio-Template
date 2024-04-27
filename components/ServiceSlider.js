@@ -1,10 +1,17 @@
-// icons
+//imports
+import {Swiper,SwiperSlide} from 'swiper/react' ;
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+import {FreeMode, Pagination} from 'swiper';
 import {
-  RxCrop,
-  RxPencil2,
-  RxDesktop,
-  RxReader,
-  RxRocket,
+    RxCrop,
+    RxPencil2,
+    RxDesktop,
+    RxReader,
+    RxRocket,
+    RxArrowTopRight,    
+    RxSpaceBetweenHorizontally
 } from "react-icons/rx";
 
 
@@ -37,8 +44,48 @@ const serviceData = [
   },
 ];
 
+
+  
 const ServiceSlider = () => {
-  return <div>Service Slider</div>;
+  return <Swiper breakpoints={{
+      320: {
+        slidePrevView: 1,
+        SpaceBetween: 15
+      },
+      640: {
+        slidePrevView: 3,
+        SpaceBetween: 15
+      },    
+    }} 
+    freeMode={true}
+    pagination={{
+      clickable: true
+    }}
+    modules={[FreeMode, Pagination]}
+    className='h-[240px] sm:h-[340px]'
+  >
+ {
+  serviceData.map((item,index)=>{
+    return <SwiperSlide key={index}>
+      <div className='bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-8 flex sm:flex-row gap-x-6 sm:gap-x-0 group cursor-pointer'>
+        <div>
+          {item.icon}
+        </div>
+        <div>
+          <div>
+            {item.title}
+          </div>
+          <p>{item.description}</p>
+        </div>
+        <div className='text-3xl'>
+          <RxArrowTopRight/>
+        </div>
+      </div>
+    </SwiperSlide>
+  })
+ }   
+</Swiper>
+  
 };
 
 export default ServiceSlider;
