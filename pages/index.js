@@ -10,7 +10,7 @@ import {motion} from 'framer-motion';
 
 //variants
 import {fadeIn} from '../variants';
-import { Head } from "next/document";
+
 
 const Home = () => {
 
