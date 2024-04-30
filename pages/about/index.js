@@ -99,7 +99,6 @@ import { useState } from "react";
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  console.log(index)
   return <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
     <Circles/>
     <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
@@ -172,7 +171,7 @@ const About = () => {
               <div>{item.stage}</div>
               <div className="flex gap-x-4">
                 {item.icons?.map((icon,itemIndex)=>{
-                  return <div className="text-2xl text-white"> {icon} </div>
+                  return <div key={itemIndex} className="text-2xl text-white"> {icon} </div>
                 })}
               </div>
             </div>

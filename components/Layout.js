@@ -14,14 +14,21 @@ import Header from '../components/Header';
 import TopLeftImg from '../components/TopLeftImg';
 
 
+
+
+
 const Layout = ({children}) => {
-  return <div className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable}
-  font-sora relative`}>
+  return( 
+  <div className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable}
+  font-s)ora relative`}>
     <TopLeftImg/>
     <Nav />
     <Header/>
     {children} 
-  </div>;
+  </div>
+  )
 };
+
+
 
 export default Layout;
