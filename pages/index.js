@@ -1,10 +1,7 @@
-// next image
-import Image from "next/image";
-
 //components
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
-import Avatar from "../components/Avatar";
+
 
 
 //framer-motion
@@ -26,7 +23,7 @@ const Home = () => {
         <motion.p variants={fadeIn('down',0.4)} initial='hidden' animate='show' exit='hidden' className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
           lorem mvbshsk  kjosuhjoschsm hsodchshcksjdc slklsjoisd lkssjcsjcosdc oisjocjsocs oijccj lkcnlcnlscoscks cnhcoishdcj  snckmncjshcom, dcnhocusnc,m snhkbcdo ushcanclah coiscd 
         </motion.p>
-        <div className="flex justify-center xl:hidden relative">
+        <div className="flex justify-center xl:hidden relative" >
           <ProjectsBtn/>
         </div>
         <motion.div variants={fadeIn('down',0.6)} initial='hidden' animate='show' exit='hidden' className="hidden xl:flex">
@@ -38,9 +35,9 @@ const Home = () => {
       <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
       </div>
       <ParticlesContainer/>
-      <motion.div variants={fadeIn('up',0.5)} initial='hidden' animate='show' exit='hidden' transition={{duration:1, ease: 'easeInOut'}} className="w-full h-full max-w-[636px] max-h-[567px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
-        <Avatar/>
-      </motion.div>
+      {/* <motion.div variants={fadeIn('up',0.5)} initial='hidden' animate='show' exit='hidden' transition={{duration:1, ease: 'easeInOut'}} className="w-full h-full max-w-[636px] max-h-[567px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
+        
+      </motion.div> */}
     </div>
     
   </div>;
