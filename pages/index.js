@@ -20,7 +20,7 @@ const Home = () => {
         </motion.h1>
         <motion.p variants={fadeIn('down',0.4)} initial='hidden' animate='show' exit='hidden' className="max-w-sm text-balance xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
         I am a Full Stack Developer with skills in web development,
-        machine learning. Check out my projects and skills. 
+        machine learning. Check out my projects and skills. 
         </motion.p>
         <div className="flex justify-center xl:hidden relative" >
           <ProjectsBtn/>
