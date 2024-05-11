@@ -1,1 +1,2 @@
-furthur updations on the way
+readme updations are on the way...
+stay tuned
