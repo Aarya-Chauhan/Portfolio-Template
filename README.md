@@ -11,10 +11,10 @@ This is a developer's portfolio website
 - Responsive UI
 - Mordern design
 # Screenshots
- <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9euUTID_V-Ni7umvbfOrj2bDR5zh9tMplVB_iRYu7HIAQOoHAZjs0T1S6awQILQ_aUGsMtByQI4_Xcyd051470x0MYpfFNJEV0KjBFIX9mZwOUoOMnFNfOOLFWuo3tVmQpkNjBsmxvm4XguOe5bcra0OAefSX6KFHpmgxmx0vZEsjtVs4szcui3wXw2s/s16000/portfoliov3.gif">
+ <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2DhRSmdiXO1P8wpLLMQNq1o7oN1SDrY6r23dWOFTxksvjC0X0YbuFD-VftG8a1OsUhiCN-7rRqUH-is6HpnbkQwvIlbPRDiQboIjo6EmYwgZyLJFtEU7g0JqEmVJTwVBd0jJ0a23s79y9qFlLqpejW_mqF-Ju4X4h0x00OPQ_SBbnBbpG7xE4I8xaNLk/s16000/portfoliov3.gif" >
+
 # Tech Used
  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
       
 
-<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
     
